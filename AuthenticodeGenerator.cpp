@@ -4,10 +4,19 @@
 
 class CodeGenerator{
 private:
-	char *m_code;
+	string m_code;
 public:
 	CodeGenerator();
-	CodeGenerator(string ID);	
+	CodeGenerator(string ID){ 
+		m_code = GenerateCode(ID);
+	}
+	string GenerateCode(string ID){
+		int length = ID.size();
+
+		for(i = 0; i < ID.size(); i++){
+			
+		}
+	}
 };
 
 class PersonalInformation{
